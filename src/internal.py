@@ -261,7 +261,7 @@ class Internal:
 
     #TODO: Get list of all states
 
-class Memory():
+class Memory(Internal):
     # default attribute here (class object attrubute)
     # pi = 3.14
     def __init__(self, steps, prevaction, intstate, sensation):
@@ -280,10 +280,10 @@ class Memory():
         print(data_list)
 
 #make instance
-muistiaskel = Memory(steps=1, prevaction=1, intstate=0, sensation=0)
+muistiaskel = Memory(1,1,0,0)
 
 #call method from class
-muistiaskel.make_list_from_data()
-# muisti = [1,2,3]
-# # muisti.append(muistiaskel.steps)
-# print(muistiaskel)
+# muistiaskel.make_list_from_data()
+muisti = []
+muisti.append(muistiaskel.make_list_from_data())
+print(muisti)
