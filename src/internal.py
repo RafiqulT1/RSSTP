@@ -261,6 +261,7 @@ class Internal:
 
     #TODO: Get list of all states
 
+<<<<<<< HEAD
 class Memory(Internal):
     # default attribute here (class object attrubute)
     # pi = 3.14
@@ -287,3 +288,6 @@ muistiaskel = Memory(1,1,0,0)
 muisti = []
 muisti.append(muistiaskel.make_list_from_data())
 print(muisti)
+=======
+
+>>>>>>> 3c5f0d9515dffe30c156286dea355115513d6c69
